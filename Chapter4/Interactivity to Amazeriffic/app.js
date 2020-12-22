@@ -41,6 +41,7 @@ var main = function () {
 		$(tabSelector).on("click", function () {
 			$(".tabs span").removeClass("active");
 			$(tabSelector).addClass("active");
+			return false;
 		})  
 	}
 }
